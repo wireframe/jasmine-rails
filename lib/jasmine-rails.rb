@@ -6,7 +6,7 @@ module JasmineRails
     # for the host Rails application
     # ex: /jasmine
     def route_path
-      Rails.application.routes.named_routes[:jasmine_rails].path.spec.to_s
+      Rails.application.routes.named_routes[:jasmine_rails].path
     end
 
     def spec_dir
